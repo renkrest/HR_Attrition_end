@@ -8,11 +8,11 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Menulis judul
-st.markdown("<h1 style='text-align: center; '> Bank Loan Prediction </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; '> Model Klasifikasi: Keluar atau Stay di Perusahaan </h1>", unsafe_allow_html=True)
 st.markdown('---'*10)
 
 # Load model
-my_model = pickle.load(open('model_klasifikasi_bank_loan.pkl', 'rb'))
+my_model = pickle.load(open('model_klasifikasi_terbaik.pkl', 'rb'))
 
 # Pilihan utama
 
